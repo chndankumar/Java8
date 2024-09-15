@@ -14,7 +14,7 @@ public class UnaryOperatorBinaryOperator {
 
         Function<String, String> functionStr = (x) -> x.toLowerCase();
         UnaryOperator<String> unaryOperatorStr = (x) -> x.toLowerCase();
-        System.out.println(unaryOperatorStr.apply("CHAdNAN"));
+        System.out.println(unaryOperatorStr.apply("CHANdAN"));
 
         BiFunction<String, String, String> biFunction = (x, y) -> x + y;
         BinaryOperator<String> binaryOperator = (x, y) -> x + y;
